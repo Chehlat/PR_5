@@ -1,0 +1,63 @@
+body {
+    font-family: 'Helvetica Std', sans-serif;
+}
+
+.table{
+    margin: 30px auto;
+    position: relative;
+    width: 600px;
+    border: 3px solid black;
+}
+.table__header{
+    background-color: rgba(51, 39, 52, 0.461);
+    color: black;
+}
+.table td, .table th{
+    border: 1px solid rgba(134, 52, 52, 0.635);
+    padding: 5px 10px;
+}
+.table thead{
+    background-color: #f0f1f4; 
+}
+.table tfoot{
+    background-color: #121212e6;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+}
+.georgy{
+    background-color: aqua;
+    font-style: oblique;
+}
+.georgy.mail{
+    font-size: large;
+    color: darkviolet;
+    border: dashed 3px black;
+}
+.gleb{
+
+    background-color: chartreuse;
+}
+.gleb.num{
+    font-weight: bold;
+    border-style:double;
+    border:dotted 7px black;
+    border-radius: 50%;
+}
+.vika{
+    background-color: hotpink;
+}
+.vika.data{
+    border: ridge 10px blueviolet;
+}
+
+.vika.name{
+    font-stretch:extra-condensed;
+    font-weight:lighter;
+
+}
+
+
+
+
+
